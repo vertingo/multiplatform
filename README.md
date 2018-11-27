@@ -1,7 +1,7 @@
 Symfony Quick Start
 ===================
 
-## Disclaimer
+## 🌐 Disclaimer
 
 This project might have a better audience if I worked on it to create a CMS-like stuff that would do everything once
 installed. But it first aims to help myself: I don't want to bother install a login system and the many
@@ -10,7 +10,7 @@ things required when I just want to solve a problem my colleagues, friends or I 
 This website helps me create useful and value-added things in a matter of hours instead of days or weeks.
 That's the point. As this project uses many well-known bundles, you may adopt it as well for the same purpose.
 
-## What is it?
+## 🌐 What is it?
 
 This is the [Symfony3 Standard Edition](https://github.com/symfony/symfony-standard) with some ready-to-use tools to
 get started quickly.
@@ -28,7 +28,7 @@ dictionary, password reuse and other kind of attacks)
 sorting macros, ckeditor with image browsing and upload, htmlpurifier for proper wysiwyg rendering, useful form types (like
 recaptcha, markdown, toggles...)
 
-## Installation
+## 🌐 Installation
 
 1) Install and run the project:
 
@@ -71,9 +71,9 @@ privileges for the given user.
 
 Go to the web/ directory and replace icon, logo and image by yours.
 
-## Usage
+## 🌐 Usage
 
-### Configuration
+### 🌐 Configuration
 
 Most of the features can be configured or disabled inside the `app/config/parameters.yml` configuration file.
 
@@ -176,7 +176,7 @@ parameters:
     # you should set ROLE_WRITERS here.
     role_file_upload: ROLE_ADMIN
 ```
-### Bundles
+### 🌐 Bundles
 
 You'll find here 3 bundles:
 
@@ -189,7 +189,7 @@ You'll find here 3 bundles:
 Try to never modify `BaseBundle` and `AdminBundle` by yourself, because this project regularly evolves and it will
 be easier to upgrade it. I'll someday export those bundles on separate packages.
 
-## License
+## 🌐 License
 
 - This project is released under the MIT license
 
